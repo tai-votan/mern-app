@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button button is danger 1`] = `
+<div>
+  <button
+    class="px-6 py-1.5 border rounded transition-all duration-300 hover:opacity-80 bg-white text-rose-600 border-rose-600"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button button is disabled 1`] = `
+<div>
+  <button
+    class="px-6 py-1.5 border rounded transition-all duration-300 hover:opacity-80 disabled:text-slate-400 cursor-not-allowed bg-white disabled:bg-slate-100 disabled:border-slate-200"
+    disabled=""
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button button is link 1`] = `
+<div>
+  <button
+    class="px-6 py-1.5 border rounded transition-all duration-300 hover:opacity-80 border-transparent text-sky-600"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button button is primary 1`] = `
+<div>
+  <button
+    class="px-6 py-1.5 border rounded transition-all duration-300 hover:opacity-80 text-white border-orange-400 bg-orange-400"
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button button is primary disabled 1`] = `
+<div>
+  <button
+    class="px-6 py-1.5 border rounded transition-all duration-300 hover:opacity-80 disabled:text-slate-400 cursor-not-allowed disabled:bg-slate-100 disabled:border-slate-200"
+    disabled=""
+    type="button"
+  />
+</div>
+`;
+
+exports[`Button renders button 1`] = `
+<div>
+  <button
+    class="px-6 py-1.5 border rounded transition-all duration-300 hover:opacity-80 bg-white hover:text-orange-400 hover:border-orange-400"
+    type="button"
+  />
+</div>
+`;

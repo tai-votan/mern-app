@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage renders page 1`] = `
+<div>
+  <div
+    class="flex min-h-screen flex-col items-center justify-center p-3.5 bg-no-repeat bg-center bg-cover"
+    style="background-image: url(/static/images/bg.png);"
+  >
+    <div
+      class="bg-white rounded-lg flex-grow py-16 px-4 lg:px-14 w-full max-w-lg"
+    >
+      <div
+        class="text-4xl font-bold text-center pb-9"
+      >
+        common:login.title
+      </div>
+      <input
+        class="border outline-0 px-2 py-1.5 rounded mb-3 w-full"
+        placeholder="common:login.username"
+        type="text"
+      />
+      <input
+        class="border outline-0 px-2 py-1.5 rounded mb-3 w-full"
+        placeholder="common:login.password"
+        type="password"
+      />
+      common:login.password
+      <button
+        class="px-6 py-1.5 border rounded transition-all duration-300 hover:opacity-80 w-full text-white border-orange-400 bg-orange-400"
+        type="button"
+      >
+        common:login.title
+      </button>
+    </div>
+  </div>
+</div>
+`;

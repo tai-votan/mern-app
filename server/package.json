@@ -1,0 +1,38 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "prepare": "husky install"
+  },
+  "author": "tai.votan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.20.0",
+    "cors": "2.8.5",
+    "dotenv": "16.0.3",
+    "express": "4.18.1",
+    "helmet": "6.0.0",
+    "lodash": "4.17.21",
+    "mongoose": "6.6.5",
+    "swagger-jsdoc": "6.2.5",
+    "swagger-ui-express": "4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "4.17.14",
+    "@types/node": "18.8.2",
+    "eslint-config-prettier": "8.5.0",
+    "husky": "8.0.1",
+    "lint-staged": "13.0.3",
+    "nodemon": "2.0.20",
+    "prettier": "2.7.1",
+    "typescript": "4.8.4"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #fff;
+  --text-color: #384059;
+}
+
+body {
+  color: var(--text-color);
+  font-family: "Reem Kufi Fun", sans-serif;
+  @apply text-sm;
+}
+
+a {
+  @apply text-sky-600;
+}

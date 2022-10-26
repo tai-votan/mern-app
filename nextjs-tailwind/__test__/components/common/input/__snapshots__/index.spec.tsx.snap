@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input renders input 1`] = `
+<div>
+  <input
+    class="border outline-0 px-2 py-1.5 rounded w-full"
+    type="text"
+  />
+</div>
+`;

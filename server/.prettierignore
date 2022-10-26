@@ -1,0 +1,15 @@
+package.json
+.dockerignore
+.DS_Store
+.eslintignore
+.editorconfig
+Dockerfile*
+.gitignore
+.prettierignore
+LICENSE
+.eslintcache
+*.lock
+*.log
+.history
+.idea
+.env
